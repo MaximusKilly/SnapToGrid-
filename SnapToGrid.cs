@@ -5,7 +5,7 @@ using UnityEngine;
 [ExecuteInEditMode]
 public class SnapToGrid : MonoBehaviour
 {
-    [SerializeField] [Range(1,30)] int Size;
+    [SerializeField] [Range(1,30)] int Size; // Size of a grid
     void Update()
     {
         Vector3 SnapPos;
